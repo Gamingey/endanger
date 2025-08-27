@@ -1,0 +1,140 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #FAFAF5;
+  color: #212121;
+  line-height: 1.6;
+}
+
+header {
+    background-image: url(img/Habitat\ Destruction.jpg);
+  padding: 20px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  top: 0;              
+  left: 0;
+  width: 100%;      
+  padding: 15px;
+  z-index: 1000;      
+}
+
+
+header h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+header h1 u {
+  text-decoration-color: #FBC02D; 
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+header a:hover {
+  color: #FBC02D;
+}
+
+
+#Info, #que {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 15px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2, h3, h4 {
+  color: #2E7D32;
+  margin-top: 20px;
+}
+
+
+.habitat-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  background: #ffffff;
+  padding: 15px;
+  margin: 20px auto;
+  max-width: 1000px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.habitat-section img {
+  width: 250px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.habitat-text {
+  flex: 1;
+}
+
+.habitat-text ul {
+  padding-left: 20px;
+}
+
+.habitat-text li {
+  margin-bottom: 8px;
+}
+
+
+footer {
+  background-color: #2E7D32;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+  font-size: 0.9rem;
+}
+
+
+@media (max-width: 768px) {
+  .habitat-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .habitat-section img {
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+  }
+
+  .habitat-text ul {
+    text-align: left;
+  }
+}
+h2{
+    text-align: center;
+}
+#scrollBtn {
+    position: fixed;    
+    bottom: 20px;       
+    right: 20px;        
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#scrollBtn:hover {
+    background-color: #555;
+}
