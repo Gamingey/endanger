@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-color: #2E7D32;
+    background-image: url(https://cdn.discordapp.com/attachments/1398712127400841281/1410573807500005407/Habitat_Destruction.jpg?ex=68b182ba&is=68b0313a&hm=590a47f354e6fe26f7bc09d0789f28b6a0f916db081e08849a3b853fd08a00e2&);
   padding: 20px;
   text-align: center;
   color: white;
@@ -137,6 +137,7 @@ h2{
 #scrollBtn:hover {
     background-color: #555;
 }
+
 
 
 
