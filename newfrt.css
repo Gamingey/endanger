@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background: black;
+    background-color: #2E7D32;
   padding: 20px;
   text-align: center;
   color: white;
@@ -137,6 +137,7 @@ h2{
 #scrollBtn:hover {
     background-color: #555;
 }
+
 
 
 
