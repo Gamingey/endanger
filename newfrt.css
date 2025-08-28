@@ -13,7 +13,7 @@ body {
 }
 
 header {
-    background-image: url(Habitat Destruction.jpg);
+    background-color: Black;
   padding: 20px;
   text-align: center;
   color: white;
@@ -137,4 +137,5 @@ h2{
 #scrollBtn:hover {
     background-color: #555;
 }
+
 
